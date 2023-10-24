@@ -3,7 +3,6 @@ CREATE TABLE Metropolitan_City (
   		City_Name TEXT NOT NULL,
   		State TEXT NOT NULL
 );
-
 CREATE TABLE GRE (
   		G_ID INTEGER PRIMARY KEY,
  	 	G_Score INTEGER NOT NULL,
@@ -98,7 +97,7 @@ VALUES (14, 'English',323, 5);
 INSERT INTO Course_Offering (Course_ID, Course_Name, Course_Cutoff, College_Code)
 VALUES (15, 'History',328, 6);
 INSERT INTO Course_Offering (Course_ID, Course_Name, Course_Cutoff, College_Code)
-VALUES (16, 'Mathematics',329, 7);
+VALUES (16, 'Mathematics',329 , 7);
 INSERT INTO Course_Offering (Course_ID, Course_Name, Course_Cutoff, College_Code)
 VALUES (17, 'Philosophy',317, 8);
 INSERT INTO Course_Offering (Course_ID, Course_Name, Course_Cutoff, College_Code)
@@ -126,3 +125,4 @@ INSERT INTO IVY_League (College_Code, College_Name, Cut_Off, Acceptance_Rate, IP
 INSERT INTO IVY_League (College_Code, College_Name, Cut_Off, Acceptance_Rate, IPin_Code, I_Address)VALUES (11, 'Harvard University', 328, 4.6, 02138, 'Cambridge, Massachusetts');
 INSERT INTO IVY_League (College_Code, College_Name, Cut_Off, Acceptance_Rate, IPin_Code, I_Address)VALUES (12, 'Princeton University', 329, 5.5, 08544, 'Princeton, New Jersey');
 INSERT INTO IVY_League (College_Code, College_Name, Cut_Off, Acceptance_Rate, IPin_Code, I_Address)VALUES (13, 'Yale University', 317, 6.3, 06520, 'New Haven, Connecticut');
+
